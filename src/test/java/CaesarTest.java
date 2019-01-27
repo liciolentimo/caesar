@@ -16,4 +16,19 @@ public class CaesarTest{
         Caesar caesar = new Caesar();
         assertEquals(true,caesar.isAlphabets("text"));
     }
+
+    @Test 
+
+    public void shiftValue_inputGreaterThanTwentySix_false(){
+        Caesar caesar = new Caesar();
+        assertEquals(false,caesar.shiftValue(67));
+    }
+
+
+    // @Test 
+
+    // public void shiftValue_inputLessThanZero_false(){
+    //     Caesar caesar = new Caesar();
+    //     assertEquals(false,caesar.shiftValue(-6));
+    // }
 }
