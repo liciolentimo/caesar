@@ -3,12 +3,12 @@ import static org.junit.Assert.*;
 
 public class CaesarTest{
 
-    @Test 
+        @Test
 
-    public void isAlphabets_inputOnlyStrings_true(){
-        Caesar caesar = new Caesar();
-        assertEquals(true, caesar.isAlphabets("text"));
-    }
+        public void isAlphabets_inputOnlyStrings_true(){
+            Caesar caesar = new Caesar();
+            assertEquals(true, caesar.isAlphabets("text"));
+        }
 
     @Test 
 
