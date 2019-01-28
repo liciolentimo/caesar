@@ -14,3 +14,7 @@ On your terminal:
 * Build the project: `gradle compileJava`
 * Navigate to `cd build/classes/main`
 * Run `java App`
+
+## Author 
+
+[MIT](LICENSE) © Licio Lentimo
